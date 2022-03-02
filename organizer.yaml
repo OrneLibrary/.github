@@ -1,0 +1,12 @@
+repositories:
+  default:
+    dependency_security:
+      alerts: true
+      automatic_fixes: true
+    features:
+      has_issues: true
+    branches:
+      main:
+        enforce_admins: false
+        required_status_checks:
+          require_review: true
